@@ -4,9 +4,6 @@ import os
 from utils import utils_image as util
 from models.network_rrdbnet import RRDBNet as net
 
-# https://github.com/cszn/KAIR/releases/download/v1.0/BSRGAN.pth
-# `model_zoo/BSRGAN.pth`
-
 img_path = 'contents/pocketmon.png'
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
